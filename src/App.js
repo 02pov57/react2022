@@ -11,6 +11,7 @@ function App() {
             <div className="base">
                 <Navmenu/>
                 <Profile/>
+
             </div>
         </div>
     );
