@@ -1,22 +1,23 @@
 import App from "../App";
+import stl from './Navmenu.module.css';
 
-
-function Navmenu(){
-    return(               <div className="navmenu">
+function Navmenu() {
+    return (
+        <div className={stl.navmenu}>
             <div className="">
-                Profile
+                <a href="" className={stl.item}>Profile</a>
             </div>
             <div className="">
-                Messages
+                <a href="" className={stl.item}>Messages</a>
             </div>
             <div className="">
-                News
+                <a href="" className={stl.item}>News</a>
             </div>
             <div className="">
-                Music
+                <a href="" className={stl.item}>Music</a>
             </div>
             <div className="">
-                Settings
+                <a href="" className={stl.item}>Settings</a>
             </div>
         </div>
     );

@@ -7,42 +7,8 @@
 
 }
 
-.head{
-  display: flex;
-  height: 150px;
-  background: coral;
-  align-items: center;
-}
-.head img{
-  width: 100 px;
-  height: 100px;
-  margin-left: 40px;
-
-}
-
 .base{
   display: flex;
   flex-direction: row;
 }
 
-.navmenu{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 20%;
-  background: cadetblue;
-  padding-top: 50px;
-  font-size: 29px;
-}
-
-.content{
-  display: flex;
-  flex-direction: column;
-  background: darkgoldenrod;
-  width: 80%;
-
-}
-.content-img img{
-  width: 1000px;
-  height: 400px;
-}

@@ -1,0 +1,12 @@
+.head{
+    display: flex;
+    height: 150px;
+    background: black;
+    align-items: center;
+}
+.head img{
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+
+}

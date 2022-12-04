@@ -1,0 +1,11 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    background: darkgoldenrod;
+    width: 80%;
+
+}
+.contentImg img{
+    width: 100px;
+    height: 400px;
+}
