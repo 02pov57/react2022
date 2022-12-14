@@ -1,7 +1,7 @@
 .head{
     display: flex;
     height: 150px;
-    background: black;
+    background: aqua;
     align-items: center;
 }
 .head img{
