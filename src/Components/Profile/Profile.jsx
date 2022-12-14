@@ -1,5 +1,6 @@
 import App from "../../App";
 import stl from './Profile.module.css';
+import MyPosts from "./MyPosts/MyPosts";
 
 function Profile(){
     return(
@@ -8,10 +9,7 @@ function Profile(){
                 <img src="https://sevkavportal.ru/media/k2/items/cache/aa81247000afe4324d3024dec01a2db4_XL.jpg" alt=""/>
             </div>
             ava+ description <br/>
-            my post <br/>
-            new post <br/>`
-            post1 <br/>
-            post 2 <br/>
+            <MyPosts/>
 
         </div>
     );

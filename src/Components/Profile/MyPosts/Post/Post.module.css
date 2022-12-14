@@ -1,0 +1,45 @@
+.post{
+    display: flex;
+    flex-direction: row;
+    background: darkgoldenrod;
+    width: 80%;
+
+}
+.postImg img{
+    width: 65px;
+    height: 65px;
+    margin-left: 30px;
+    border-radius: 27px;
+}
+
+.postText{
+    padding-left: 25px;
+    padding-right: 45px;
+    font-size: 24px;
+    color: blue;
+    width: 60%;
+    font-family: "Droid Serif";
+}
+
+like{
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    justify-content: flex-end;
+}
+.like img{
+    width: 35px;
+    height: 35px;
+    margin-top: 16px;
+    border-radius: 15px 15px 5px 5px;
+
+}
+.countlike{
+    display: flex;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+.like h3{
+
+
+}
