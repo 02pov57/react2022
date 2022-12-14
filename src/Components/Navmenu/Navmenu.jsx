@@ -1,4 +1,4 @@
-import App from "../App";
+import App from "../../App";
 import stl from './Navmenu.module.css';
 
 function Navmenu() {
