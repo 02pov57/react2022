@@ -3,14 +3,18 @@ import './App.css';
 import Header from "./Components/Header/Header";
 import Navmenu from "./Components/Navmenu/Navmenu";
 import Profile from "./Components/Profile/Profile";
+import Dialogs from "./Components/Dialogs/Dialogs";
 
 function App() {
     return (
         <div className="App">
-            <Header/>
+            <Header />
             <div className="base">
-                <Navmenu/>
-                <Profile/>
+                <Navmenu />
+              <div className="content">
+                  <Dialogs />
+              </div>
+
 
             </div>
         </div>

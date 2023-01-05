@@ -8,8 +8,7 @@ function Header(){
     </div>
 
 );
-    console.log(this.s);
-    console.log("cvbvjngvn");
+
 }
 
 export default Header;

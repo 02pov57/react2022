@@ -1,10 +1,4 @@
-.content{
-    display: flex;
-    flex-direction: column;
-    background: darkgoldenrod;
-    width: 80%;
 
-}
 .contentImg img{
     width: 83%;
     padding: 20px;
