@@ -19,7 +19,7 @@ function App() {
                     <Navmenu/>
                     <div className={stl.content}>
                         <Routes>
-                            <Route path='/dialogs' element={<Dialogs />}/>
+                            <Route path='/dialogs/*' element={<Dialogs />}/>
                             <Route path='/profile' element={<Profile />}/>
                             <Route path='/' element={<Profile />}/>
                             <Route path='/news' element={<News />}/>

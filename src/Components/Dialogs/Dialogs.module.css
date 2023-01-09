@@ -1,0 +1,26 @@
+.dialogs{
+    display: flex;
+    flex-direction: row;
+    margin-top: 33px;
+}
+
+.dialogsItems{
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+.dialog{
+    margin-top: 5px;
+    margin-bottom: 17px;
+}
+
+.allMsgs{
+    display: flex;
+    flex-direction: column;
+
+}
+.messages{
+    margin-top: 5px;
+    margin-bottom: 17px;
+    margin-left: 90px;
+}
